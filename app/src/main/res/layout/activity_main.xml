@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/EdtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:hint="Enter Name"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/EdtLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:hint="Enter Last Name"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/EdtHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:hint="Enter Height..."
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/EdtWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:hint="Enter Weight..."
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:inputType="text"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/InsertButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Insert"
+            android:layout_alignParentBottom="true"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            />
+
+    </RelativeLayout>
+</LinearLayout>
